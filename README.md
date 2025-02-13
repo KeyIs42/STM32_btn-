@@ -1,6 +1,6 @@
 # Пояснения к коду:
 
-** __#include "stm32f4xx_hal.h"__: Подключает заголовочный файл HAL (Hardware Abstraction Layer) для вашей серии STM32. Убедитесь, что он соответствует вашей серии (например, stm32f1xx_hal.h, stm32f7xx_hal.h и т.д.).**
+**__#include "stm32f4xx_hal.h"__: Подключает заголовочный файл HAL (Hardware Abstraction Layer) для вашей серии STM32. Убедитесь, что он соответствует вашей серии (например, stm32f1xx_hal.h, stm32f7xx_hal.h и т.д.).**
 
 **_BUTTON_PIN_GPIO_Port, BUTTON_PIN_Pin_: Это макросы, автоматически сгенерированные STM32CubeMX. Они определяют порт и пин, к которому подключена кнопка. Их значения основаны на имени, которое вы задали в CubeMX (User Label).**
 
